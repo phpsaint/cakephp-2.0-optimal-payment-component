@@ -8,7 +8,7 @@ The main features implmented are,
 * Ability to purchase new item/product based on  users  previous purchase data(Doesn’t means  we are saving an credit card info).
 
  	
-== Minimum Requirements ==
+ == Minimum Requirements ==
 
 * Cake PHP 1.3 or later
 * cURL support
