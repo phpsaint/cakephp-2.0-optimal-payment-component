@@ -1,5 +1,5 @@
 Cake PHP Optimal Payment Component with ccPurchase, ccAuthorize, ccVerification, ccSettlement, ccStoredDataPurchase and ccStoredDataAuthorize
-==========================================
+##########################################
 The main features implmented are, 
 
 * Purchase with credit card info .
@@ -8,13 +8,15 @@ The main features implmented are,
 * Ability to purchase new item/product based on  users  previous purchase data(Doesn’t means  we are saving an credit card info).
 
  	
- == Minimum Requirements ==
+Minimum Requirements
+ -------------
 
 * Cake PHP 1.3 or later
 * cURL support
 * SimpleXml
 
-== Main Modules includes ==
+Main Modules includes
+-------------
 
 * ccPurchase
 * ccAuthorize
@@ -23,13 +25,14 @@ The main features implmented are,
 * ccStoredDataPurchase
 * ccStoredDataAuthorize
 
-== Implementation ==
+Implementation
+-------------
 
-=== Models === 
+### Models ### 
 
 Add models for logs and necessary change to save info
 
-=== Controller === 
+### Controller ### 
 
 Add Optimal Payment component in the components array( Sorry Cake gurus. It’s intented for all from freshers to gurus ;) ).
 
@@ -41,5 +44,5 @@ Add Optimal Payment component in the components array( Sorry Cake gurus. It’s in
     );
  </nowiki>
 
-=== Views === 
+### Views ### 
 Necessary Codes to get user inputs, like amount and credit card info
